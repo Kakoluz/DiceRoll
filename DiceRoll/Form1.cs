@@ -102,9 +102,9 @@ namespace DiceRoll
             richTextBox1.Text = text;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            dice = new Random(Int32.Parse(textBox1.Text));
+            dice = new Random((int)numericUpDown2.Value);
         }
     }
 }
